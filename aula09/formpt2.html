@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <form action="#" method=""></form>
+    <legend>Identificação:</legend>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome" name="name">
+    <br><br>
+    <label for="email">E-mail</label>
+    <input type="email" id="E-mail" name="email">
+    <br><br>
+    <label for="endereco">endereço</label>
+    <input type="text" id="endereco" name="endereco">
+    <br><br>
+    <label for="listaUnidades">selecione sua unidade:</label><br>
+    <select name="" id="">
+        <option value="santana">Santana</option>
+        <option value="santoamaro">Santo Amaro</option>
+        <option value="diadema">Diadema</option>
+        <option value="itaquera">Itaquera</option>
+    </select></fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>informações Extras:</legend>
+    <label for="listaUnidades">selecione sua unidade:</label>
+    <br>
+    
+    <select name="unidades" id="listaUnidades">
+        <option value="unidade" hidden>unidades<option>
+        <option value="santana">Santana</option>
+        <option value="santoamaro">Santo Amaro</option>
+        <option value="diadema">Diadema</option>
+        <option value="itaquera">Itaquera</option>
+    </select>
+    <br>
+<p>onde você mora:</p>
+<input type="text" list="cidade" autocomplete="on" name="listaCidade" placeholder="Digite sua cidade">
+<datalist id="cidade">
+    <option value="São Paulo"></option>
+    <option value="Campinas"></option>
+    <option value="Santo Andre"></option>
+    <option value="Juquitiba"></option>
+</datalist>
+<br></fieldset>
+<br>
+<fieldset>
+<!--<input type="range" name="#" id="#"-->
+<legend>sua opinião:</legend>
+<p></p>
+<textarea name="avaliacao" id="avaliacao" cols="30" rows="10" placeholder="Deixe aqui seu comentário"></textarea>
+</fieldset>
+<br>
+    <input type="submit" value="Enviar">
+</body>
+</html>
